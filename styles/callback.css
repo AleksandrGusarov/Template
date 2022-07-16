@@ -1,0 +1,233 @@
+.callback {
+    padding: 70px 0 50px 0;
+
+}
+
+.wrapper-callback {
+    width: 100%;
+    background-image: url("../img/background_feedback.png");
+    background-position: top;
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.callback__wrapper {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.callback__title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 41px;
+    letter-spacing: 2px;
+    margin-bottom: 17px;
+}
+
+.callback__subtitle {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.callback__form {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 21px;
+}
+
+.callback__input {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    width: 423px;
+    min-height: 44px;
+    padding: 9px 0 9px 25px;
+    background-color: transparent;
+    border-color: #FFFFFF;
+    border-radius: 50px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.callback__label {
+    margin-bottom: 29px;
+}
+
+.callback__button {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    width: 218px;
+    height: 48px;
+    background-color: var(--main-color);
+    border-radius: 50px;
+    border: none;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
+
+.callback__description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+
+.callback__description a {
+    color: #4A76A8;
+    border-bottom: 1px solid #4A76A8;
+}
+
+@media (max-width: 1024px) {
+    .callback__title{
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 16px;
+    }
+
+    .callback__subtitle {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .callback__input {
+        font-size: 20px;
+        line-height: 23px;
+    }
+
+    .callback__description{
+        font-size: 17px;
+        line-height: 20px;
+        margin-bottom: 6px;
+    }
+}
+
+@media (max-width: 560px) {
+    .callback__title{
+        font-size: 25px;
+        line-height: 27px;
+        margin-bottom: 13px;
+    }
+
+    .callback__subtitle {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .callback__input {
+        font-size: 16px;
+        line-height: 18px;
+        max-width: 560px;
+    }
+
+    .callback__description{
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .callback__input {
+        max-width: 350px;
+    }
+
+}
+
+@media (max-width: 460px) {
+    .callback__title{
+        font-size: 25px;
+        line-height: 27px;
+        margin-bottom: 13px;
+    }
+
+    .callback__subtitle {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .callback__input {
+        font-size: 16px;
+        line-height: 18px;
+        max-width: 560px;
+    }
+
+    .callback__description{
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .callback__input {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 465px) {
+    .callback {
+        padding: 30px 0;
+    }
+
+    .callback__title{
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 10px;
+    }
+
+    .callback__subtitle {
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 35px;
+    }
+
+    .callback__input {
+        font-size: 14px;
+        line-height: 16px;
+        width: 300px;
+    }
+
+    .callback__label {
+        margin-bottom: 24px;
+    }
+
+    .callback__description{
+        font-size: 11px;
+        line-height: 13px;
+        text-align: center;
+    }
+
+    .callback__button {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .callback__input {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 364px) {
+    .callback__subtitle {
+        letter-spacing: 0;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .callback__input {
+        width: 290px;
+    }
+
+    .callback__button {
+        max-width: 174px;
+        height: 38px;
+    }
+
+}
+
+
+
+

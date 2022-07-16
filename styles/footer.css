@@ -1,0 +1,148 @@
+.footer {
+    max-width: 1600px;
+    background: #2F324B;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.design {
+    padding: 45px 0 45px;
+}
+
+.footer-aside{
+    display: none;
+}
+
+.design__wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.design-phone__image {
+    display: none;
+}
+
+.logo {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    max-width: 214px;
+    white-space: pre-line;
+    gap: 19px;
+}
+
+.logo__description {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.design__description {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.design-phone {
+    display: flex;
+    flex-flow: column wrap;
+    align-self: center;
+    align-items: center;
+}
+
+.design-phone__number {
+    font-size: 23.85px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.design-phone__link {
+    font-size:16px;
+    font-weight: 400;
+    line-height: 18px;
+    border-bottom: 1px solid  #FFFFFF;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .logo__image {
+        max-width: 60px;
+    }
+
+    .design-phone__number {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .design-phone__link {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .design__description {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+}
+
+@media (max-width: 646px) {
+    .design {
+        padding: 25px 0;
+    }
+
+    .design-phone__image {
+        display: inline;
+    }
+
+    .design-phone__number {
+        display: none;
+    }
+
+    .design-phone__link {
+        display: none;
+    }
+
+    .logo__image {
+        max-width: 45px;
+    }
+
+    .design__description {
+        display: none;
+    }
+
+    .footer-aside{
+        width: 100%;
+        display: block;
+        background-color: #2A2C3F;
+        padding: 15px 0;
+    }
+
+    .footer-aside__paragraph {
+        font-size: 12px;
+        line-height: 17px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+@media (max-width: 320px) {
+    .logo__image {
+        max-width: 30px;
+    }
+
+    .logo__description {
+        font-size: 8px;
+        line-height: 11px;
+    }
+
+    .design-phone__image {
+        max-width: 24px;
+    }
+}
+

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <title>adaptive</title>
+</head>
+<body class="page">
+    <header class="page__header header">
+        <div class="container">
+            <div class="header__wrapper">
+                <section class="header__phonebar phonebar">
+                    <img class="phonebar__logo" src="img/logo_icon.png" alt="логотип logo">
+                    <div class="phonebar__wrapper">
+                        <img class="phonebar__image" src="img/phone_icon.png" alt="phone icon">
+                        <a class="phonebar__number" href="tel:+79625561234">+7 (962) 556 - 1234</a>
+                        <a class="phonebar__link" href="#callback">Перезвоните мне</a>
+                    </div>
+                </section>
+                <section class="header__section hero">
+                    <h1 class="hero__title">Заголовок с уникальным торговым предложение по системе 4U</h1>
+                    <p class="hero__description">Описания предложения компании. Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему.</p>
+                    <a class="hero__button" href="#">Подробнее</a>
+                </section>
+            </div>
+        </div>
+    </header>
+    <main class="page__main main">
+            <section class="main__section benefits">
+                <div class="container">
+                    <div class="benefits__wrapper">
+                        <h2 class="benefits__title">Уникальный заголовок для преимущества компании</h2>
+                        <h3 class="benefits__subtitle"> О нас </h3>
+                        <p class="benefits__description">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.</p>
+                    </div>
+                    <div class="benefits__card card">
+
+                        <div class="card__first first">
+                            <p class="first__subtitle">1</p>
+                            <p class="first__description">Первое целевое преимущество</p>
+                        </div>
+
+                        <div class="card__third second">
+                            <p class="second__subtitle">2</p>
+                            <p class="second__description">Второе целевое преимущество</p>
+                        </div>
+
+                        <div class="card__third third">
+                            <p class="third__subtitle">3</p>
+                            <p class="third__description">Третье целевое преимущество</p>
+                        </div>
+
+                        <div class="card__fourth fourth">
+                            <p class="fourth__subtitle">4</p>
+                            <p class="fourth__description">Четвертое целевое преимущество</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <div class="container__wrapper wrapper-callback">
+            <section class="main__section callback">
+                <div class="container">
+                    <div class="callback__wrapper">
+                        <h2 class="callback__title" id="callback">Остались вопросы?</h2>
+                        <h3 class="callback__subtitle">Оставьте номер телефона, и мы перезвоним вам</h3>
+                        <form class="callback__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+                            <label>
+                                <input class="callback__input" type="text" name="name" required placeholder="Ваше имя">
+                            </label>
+                            <label>
+                                <input class="callback__input" type="tel" name="Phone" required title="+7-___-___-__-__"
+                                       pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$"
+                                       placeholder="Телефон">
+                            </label>
+                            <label class="callback__label">
+                                <input class="callback__input" type="email" name="email" required placeholder="E-mail">
+                            </label>
+                            <label>
+                                <button class="callback__button" type="submit">Позвоните мне</button>
+                            </label>
+                            <label>
+                                <p class="callback__description">Я даю своё <a href="#">согласие</a> на обработку моих персональных данных.</p>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="page__footer footer">
+        <section class="footer__section design">
+            <div class="container">
+                <div class="design__wrapper">
+                    <div class="design__logo logo">
+                        <img class="logo__image" src="img/logo_icon.png" alt="логотип logo">
+                        <p class="logo__description">&copy; 2022 XXXcompany.
+                            Все права защищены.</p>
+                    </div>
+                    <p class="design__description">Сделано в Ивановым Иваном</p>
+                    <div class="design__phone design-phone">
+                        <img class="design-phone__image" src="img/phone_icon.png" alt="phone icon">
+                        <a class="design-phone__number" href="tel:+79625561234">+7 (962) 556 - 1234</a>
+                        <a class="design-phone__link" href="#callback">Перезвоните мне</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <aside class="footer__aside footer-aside">
+            <div class="wrapper">
+                <p class="footer-aside__paragraph">Сделано Ивановым Иваном</p>
+            </div>
+        </aside>
+    </footer>
+</body>
+</html>
