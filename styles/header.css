@@ -2,8 +2,11 @@
     background-image: url("../img/background_header.png");
     background-repeat: no-repeat;
     background-position: top;
-    background-size: inherit;
+    background-size: auto;
     color: rgba(255, 255, 255, 0.86);
+    max-width: 1601px;
+    min-height: 732px;
+    margin: 0 auto;
 }
 
 .phonebar {
