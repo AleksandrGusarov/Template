@@ -1,5 +1,5 @@
 .footer {
-    max-width: 1600px;
+    max-width: 1701px;
     min-height: 158px;
     background: var(--second-color-2);
     color: #FFFFFF;
@@ -152,6 +152,7 @@
         justify-content: center;
         align-items: center;
         color: rgba(255, 255, 255, 0.5);
+
     }
 }
 

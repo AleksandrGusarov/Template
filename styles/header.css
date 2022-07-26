@@ -2,9 +2,9 @@
     background-image: url("../img/background_header.png");
     background-repeat: no-repeat;
     background-position: top;
-    background-size: auto;
+    background-size: 1701px 732px;
     color: rgba(255, 255, 255, 0.86);
-    max-width: 1601px;
+    max-width: 1701px;
     min-height: 732px;
     margin: 0 auto;
 }
@@ -75,6 +75,10 @@
     text-align: center;
     color: rgba(255, 255, 255, 0.75);
     margin-bottom: 90px;
+}
+
+.hero__description-second {
+    display: none;
 }
 
 .hero__button {
@@ -151,10 +155,6 @@
         line-height: 25.41px;
         padding: 2.5px 0 0 3px;
         margin-bottom: 55px;
-    }
-
-    .hero__description-second {
-        display: none;
     }
 
     .hero__button {
