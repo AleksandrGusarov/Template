@@ -48,7 +48,7 @@
     font-size: 22px;
     line-height: 26px;
     width: 426px;
-    min-height: 44px;
+    height: 44px;
     padding: 9px 0 9px 25px;
     background-color: transparent;
     border-color: #FFFFFF;
@@ -152,10 +152,6 @@
         line-height: 15px;
     }
 
-    .callback__input {
-        max-width: 350px;
-    }
-
 }
 
 @media (max-width: 460px) {
@@ -173,16 +169,12 @@
     .callback__input {
         font-size: 16px;
         line-height: 18px;
-        max-width: 560px;
+        max-width: 350px;
     }
 
     .callback__description{
         font-size: 13px;
         line-height: 15px;
-    }
-
-    .callback__input {
-        max-width: 350px;
     }
 }
 
@@ -206,7 +198,7 @@
     .callback__input {
         font-size: 14px;
         line-height: 16px;
-        width: 300px;
+        max-width: 350px;
     }
 
     .callback__label {
@@ -224,9 +216,6 @@
         line-height: 19px;
     }
 
-    .callback__input {
-        max-width: 350px;
-    }
 }
 
 @media (max-width: 364px) {
@@ -244,7 +233,7 @@
 
     .callback__title {
         padding: 0 0;
-        margin-right: 17px;
+        margin: 0 2px 11px 0;
     }
 
     .callback__subtitle {
@@ -253,17 +242,24 @@
 
     .callback__form {
         padding: 0 0;
+        gap: 13px;
     }
 
     .callback__input {
-        width: 290px;
+        width: 292px;
+        height: 30.5px;
+        padding: 9px 0 9px 16px;
+    }
+
+    .callback__label {
+        margin-bottom: 30px;
     }
 
     .callback__button {
         max-width: 174px;
         height: 38px;
+        margin-bottom: 17px;
     }
-
 }
 
 

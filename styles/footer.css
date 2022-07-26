@@ -156,13 +156,31 @@
 }
 
 @media (max-width: 320px) {
+    .footer {
+        min-height: 118px;
+    }
+
+    .design {
+        padding: 24px 0 25px;
+    }
+
+    .logo {
+        padding: 1px 0 0 1px;
+    }
+
     .logo__image {
-        max-width: 30px;
+        width: 30px;
+        height: 30px;
     }
 
     .logo__description {
         font-size: 8px;
-        line-height: 11px;
+        line-height: 11.8px;
+    }
+
+    .design-phone {
+        width: 27px;
+        height: 23.5px;
     }
 
     .design-phone__image {
