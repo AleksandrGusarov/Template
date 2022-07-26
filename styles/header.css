@@ -109,12 +109,14 @@
     }
 
     .phonebar__logo {
-        max-width: 60px;
+        width: 75px;
         height: 60px;
+        padding-left: 15px;
     }
 
     .phonebar__wrapper {
-        width: 186px;
+        width: 207px;
+        gap: 3.01px;
 
     }
 
@@ -126,27 +128,37 @@
 
     .phonebar__link {
         font-size: 13px;
+        padding-left: 4px;
     }
 
     .hero {
         max-width: 780px;
-        padding: 40px 0 20px;
+        padding: 40px 0 20px 14px;
     }
 
     .hero__title {
         font-weight: 900;
         font-size: 40px;
+        line-height: 46.88px;
+        padding-left: 2.5px;
         margin-bottom: 27px;
     }
 
     .hero__description {
-        max-width: 754px;
+        max-width: 782px;
         font-weight: 400;
         font-size: 18px;
-        margin-bottom: 60px;
+        line-height: 25.41px;
+        padding: 2.5px 0 0 3px;
+        margin-bottom: 55px;
+    }
+
+    .hero__description-second {
+        display: none;
     }
 
     .hero__button {
+        width: 202px;
         margin-bottom: 50px;
     }
 
@@ -242,19 +254,48 @@
 }
 
 @media (max-width: 320px) {
+
     .header {
-        width: 320px;
-        height: 441px;
-        background-position: -100px -100px;
-        background-size: auto;
+        max-width: 319px;
+        min-height: 441px;
+        background-position: -115px 0;
+        background-size: 936px 441px;
+        margin: 0 0;
     }
 
+    .hero {
+        padding: 18px 0 50px;
+    }
+
+    .phonebar__logo {
+        padding: 0 0;
+    }
+
+    .phonebar__image {
+        top: 3px;
+        right: 1px;
+    }
+
+    .hero__title {
+        padding: 0 0;
+    }
 
     .hero__description {
+        display: none;
+    }
+
+    .hero__description-second {
+        display: block;
+        text-align: center;
         font-size: 14px;
+        font-weight: 400;
+        line-height: 19.69px;
+        padding: 3px 0 0;
         width: 290px;
         height: 77px;
-        overflow: hidden;
+        margin-bottom: 58px;
     }
+
+
 
 }

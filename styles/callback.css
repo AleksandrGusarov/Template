@@ -90,23 +90,42 @@
     .callback__title{
         font-size: 32px;
         line-height: 38px;
-        margin-bottom: 16px;
+        padding-left: 8px;
+        margin: 0 0 16px 0;
     }
 
     .callback__subtitle {
         font-size: 20px;
         line-height: 23px;
+        padding-left: 34px;
+        margin-bottom: 47px;
+    }
+
+    .callback__form {
+        padding-left: 16.5px;
+        gap: 15px;
     }
 
     .callback__input {
         font-size: 20px;
         line-height: 23px;
+        width: 380px;
+        height: 40px;
+        padding: 9px 0 9px 21px;
+    }
+
+    .callback__label {
+        margin-bottom: 32px;
     }
 
     .callback__description{
         font-size: 17px;
         line-height: 20px;
         margin-bottom: 6px;
+    }
+
+    .callback__button {
+        margin-bottom: 15px;
     }
 }
 
@@ -214,10 +233,28 @@
     .callback__subtitle {
         letter-spacing: 0;
     }
-
 }
 
 @media (max-width: 320px) {
+    .callback {
+        max-width: 320px;
+        height: 398px;
+        padding: 31px 0 30px;
+    }
+
+    .callback__title {
+        padding: 0 0;
+        margin-right: 17px;
+    }
+
+    .callback__subtitle {
+        padding: 0 0;
+    }
+
+    .callback__form {
+        padding: 0 0;
+    }
+
     .callback__input {
         width: 290px;
     }
